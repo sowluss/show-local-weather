@@ -1,0 +1,84 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: #9CAA9C;
+}
+
+.weather-block {
+    width: 40%;
+    margin: 60px auto;
+    text-align: center;
+    background-color: #EFEFDE;
+    border: 1px solid #9CAA9C;
+}
+
+#page-title {
+    color: #EFEFDE;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Imprima', sans-serif;
+}
+
+#city {
+    color: #9CAA9C;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#country {
+    font-size: 30px;
+    color: #BD9A52;
+    font-family: 'Antic', sans-serif;
+}
+
+img {
+    display: block;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 20%;
+    height: 20%;
+}
+
+.degrees {
+    margin: 5px auto;
+    width: 50%;
+}
+
+#temp {
+    text-align: center;
+    display: inline;
+    font-family: 'Saira', sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+}
+
+#toggle {
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Saira', sans-serif;
+}
+
+#desc {
+    color: grey;
+    text-align: center;
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding-bottom: 60px;
+    font-family: 'Antic', sans-serif;
+}
+
+h5 {
+    cursor: pointer;
+    color: #BD9A52;
+}
+
+h5.toggle-text:hover {
+    color: #9CAA9C;
+}
