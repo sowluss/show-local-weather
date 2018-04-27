@@ -42,13 +42,13 @@ img {
     margin-top: 5px;
     margin-right: auto;
     margin-left: auto;
-    width: 20%;
-    height: 20%;
+    width: 25%;
 }
 
 .degrees {
-    margin: 5px auto;
+    margin: auto;
     width: 50%;
+    padding-bottom: 40px;
 }
 
 #temp {
@@ -57,6 +57,7 @@ img {
     font-family: 'Saira', sans-serif;
     font-size: 50px;
     font-weight: 100;
+    color: #636363;
 }
 
 #toggle {
@@ -68,9 +69,9 @@ img {
 #desc {
     color: grey;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 60px;
     text-transform: uppercase;
-    padding-bottom: 60px;
+    padding-bottom: 10px;
     font-family: 'Antic', sans-serif;
 }
 
@@ -79,6 +80,15 @@ h5 {
     color: #BD9A52;
 }
 
-h5.toggle-text:hover {
+h5:hover {
     color: #9CAA9C;
+}
+
+#footer {
+    margin: auto;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+    padding-bottom: 20px;
 }
